@@ -32,11 +32,11 @@ import Footer from "../components/footer.vue";
 import cap from "../assets/cap-grad.png";
 import jobs from "../assets/job-search.png";
 import tie from "../assets/necktie.png";
-import TI from "../assets/TI.jpg";
-import SI from "../assets/SI.jpg";
-import broadcasting from "../assets/broadcasting.jpg";
+import TI from "../assets/prodiTI.jpg";
+import SI from "../assets/prodiSI.jpg";
+import broadcasting from "../assets/kftm.jpg";
 import visionmissionImg from "../assets/Group 3.png";
-import academic from "../assets/academic-img.jpg";
+import academic from "../assets/academic.png";
 import gallery1 from "../assets/gallery1.jpg";
 import gallery2 from "../assets/gallery2.jpeg";
 import gallery3 from "../assets/gallery3.jpeg";
@@ -102,7 +102,7 @@ const prodiAssets = {
 // Object visionMissionDetail
 const visionMissionDetail = {
   img: visionmissionImg,
-  visi: "Menjadi Perguruan Tinggi di tahun 2032 yang memiliki kompetensi, kualitas unggul dan mampu bersaing di Tingkat Nasional dan Internasional serta memiliki akhlak yang mulia.",
+  visi: "Menjadi Fakultas terdepan pada tahun 2032 yang memiliki kompetensi dan kualitas unggul, serta mampu bersaing di tingkat Nasional dan Internasional dengan menjunjung tinggi akhlak yang mulia.",
   misi: [
     {
       satu: "Menjalankan Tridharma Perguruan Tinggi.",
@@ -125,150 +125,42 @@ const visionMissionDetail = {
 
 // Object organisationDetail
 const organisationDetail = {
-  bagan: [
+  lecturers: [
     {
-      category: "Rektorat",
-      members: [
-        { title: "Rektor", name: "Dr. H. Dedi Royadi, M.Si." },
-        {
-          title: "Wakil Rektor Bidang Akademik",
-          name: "Muchamad Iqbal, S.E., M.Kom.",
-        },
-        {
-          title: "Wakil Rektor Bidang Non Akademik",
-          name: "M. Iqbal Hanafri, S.Pi., M.Kom.",
-        },
-      ],
+      name: "Rahmat Tullah, M.Kom.",
+      position: "Dekan FTIK. & Dosen Institut Global.",
     },
     {
-      category: "Dekan",
-      members: [
-        { title: "Dekan FTIK", name: "Rahmat Tullah, M.Kom." },
-        { title: "Dekan FEB & Ka. Prodi BD", name: "Ramaddan Julianti, M.T." },
-      ],
+      name: "Achmad Sidik, M.Kom.",
+      position: "KA. Prodi Sistem Informasi.",
     },
     {
-      category: "Prodi",
-      members: [
-        { title: "Ka. Prodi Sistem Informasi", name: "Ahmad Sidik, M.Kom." },
-        {
-          title: "Ka. Prodi Teknik Informatika",
-          name: "Dr (Cand) Fredy Susanto, M.Kom.",
-        },
-        {
-          title: "Ka. Prodi Kajian Film & Media",
-          name: "M. Luthfi Prabowo, M.Ikom.",
-        },
-      ],
+      name: "M. Bucci Ryando, M.Kom.",
+      position: "Dosen Institut Global.",
     },
     {
-      category: "Sekretaris Fakultas",
-      members: [
-        {
-          title: "Sekretaris Fakultas (FTIK)",
-          name: "Nunung Nurmaesah, M.Kom.",
-        },
-        {
-          title: "Sekretaris Fakultas (FEB)",
-          name: "Refi Nabilah Royadi, S.E., S.Kom., M.M.",
-        },
-      ],
+      name: "Moh. Softjan S.T., M.Kom.",
+      position: "Dosen Institut Global.",
     },
     {
-      category: "Komisi Disiplin & Biro Hukum",
-      members: [
-        {
-          title: "Komisi Disiplin & Biro Hukum",
-          name: "Noor Rochim, S.Sos.",
-          name2: "Dr. (cand) M. Ramaddan Julianti, M.T.",
-          name3: "Theodora Septiana, S.Kom., M.M.",
-        },
-      ],
+      name: "Nova teguh Sunggono, M.Kom.",
+      position: "Dosen Institut Global.",
     },
     {
-      category: "Lembaga Penelitian & Pengabdian Masyarakat",
-      members: [
-        {
-          title: "LPPM",
-          name: "Bucci Ryando, M.Kom.",
-          name2: "Alfiah Khoirunisa, S.Kom, M.T.I",
-        },
-      ],
+      name: "Muhammad Lufti Prabowo, M.I.Kom.",
+      position: "Dosen Institut Global.",
     },
     {
-      category: "Unit Pelaksana Teknis",
-      members: [
-        {
-          title: "UPT Adm Akademik & Mahasiswa",
-          name: "Nina Septiana, S.Kom, Supardi, S.Kom, Marchia, S.Kom",
-        },
-        { title: "UPT HRD", name: "Noor Rochim, S.Sos" },
-        {
-          title: "UPT Pusat Karir & Kewirausahaan",
-          name: "Vera Lupi Nurpratiwi, S.Kom",
-        },
-        { title: "UPT E-learning", name: "Supardi, S.Kom" },
-        {
-          title: "UPT PDPT / Pusat Data",
-          name: "Triono, M.Kom, Dimas Fahmi, S.Kom",
-        },
-        { title: "UPT Perpustakaan", name: "Renjana Dian, S.IP" },
-        { title: "UPT System Development", name: "Bambang Tri, S.Kom" },
-        {
-          title: "UPT Infrastruktur & IT Support ",
-          name: "Jalaludin, S.Kom, Bambang Tri, S.Kom",
-        },
-        {
-          title: "UPT Laboratorium",
-          name: "Haeri Setiawan, S.Kom, Dimas Fahmi, S.Kom, Jalaluddin, S.Kom, Bambang Tri, S.Kom",
-        },
-        { title: "UPT Accounting", name: "Chaerunnisa, S.Kom" },
-        {
-          title: "UPT Humas, Publikasi, Multimedia & Customer Service",
-          name: "Eko Rendi, S.Kom, Novia, S.Kom",
-        },
-        { title: "UPT Kemahasiswaan", name: "Diki Niko, S.Kom" },
-        { title: "UPT Kasir", name: "Nita, S.E, Evita Ayu, S.Kom" },
-        {
-          title: "UPT General Affairs",
-          name: "Soleh, Nani, Jajuli, Wahyu (Security), Rouf (Security)",
-        },
-      ],
+      name: "Rudy Sunardi, S.Kom., M.T.",
+      position: "Dosen Institut Global.",
     },
     {
-      category: "Badan Penjaminan Mutu",
-      members: [
-        { title: "Badan Penjaminan Mutu", name: "Sutarman, S.S., M.M." },
-        {
-          title: "Badan Perencanaan & Pengembangan",
-          name: "M. Iqbal Hanafri, S.Pi., M.Kom.",
-        },
-        { title: "Sekretariat", name: "Irma Listiana, S.Kom." },
-      ],
+      name: "Zainul Hakim, MMSI.",
+      position: "Dosen Institut Global.",
     },
     {
-      category: "Biro",
-      members: [
-        { title: "Ka. Biro BAAK", name: "Nina Septiana, S.Kom." },
-        {
-          title: "Ka. Biro Teknologi & Sistem Informasi",
-          name: "Nova Teguh Sunggono, M.Kom.",
-        },
-        { title: "Ka. Biro Keuangan", name: "Ratna Suminar" },
-        {
-          title: "Ka. Biro SDM, GA & Sarana Prasarana",
-          name: "Noor Rochim, S.Sos.",
-          name2: "Agus Budiman, S.Kom",
-        },
-        {
-          title: "Ka. Biro Humas & Kerjasama",
-          name: "Theodora Septiana, S.Kom., M.M",
-        },
-        {
-          title: "Ka. Biro Kemahasiswaan & Marketing",
-          name: "Arni R. Mariana, M.Kom.",
-        },
-      ],
+      name: "Basuki Rachmadi, M.M.",
+      position: "Dosen Institut Global.",
     },
   ],
 };
@@ -317,26 +209,25 @@ const achievementDetail = {
       ],
     },
     {
+      name: "Siti Khojanah",
+      achievements: [
+        "Final Lomba Circuit Orienteering Banten",
+        "Juara Umum Lomba Circuit Orienteering Banten",
+      ],
+    },
+    {
       name: "Rizky",
-      achievements: [
-        "Juara 1 Lomba Photography, Tingkat Provinsi Banten (Dinas Pendidikan Provinsi)",
-      ],
+      achievements: ["Juara 1 Lomba Photography, Tingkat Provinsi Banten"],
     },
     {
-      name: "Astrid & Rizky",
-      achievements: [
-        "Juara 2 Lomba Film Dokumenter Kategori Informatif, Tingkat Provinsi Banten (Dinas Pendidikan Provinsi)",
-      ],
-    },
-    {
-      name: "Yayan & Andrian",
-      achievements: [
-        "Juara 2 Lomba Film Dokumenter Kategori Sinopsis, Tingkat Provinsi Banten (Dinas Pendidikan Provinsi)",
-      ],
-    },
-    {
-      name: "Viktor Mahardika",
+      name: "Alif",
       achievements: ["Juara 2 Web Design Tingkat Kota Tangerang"],
+    },
+    {
+      name: "Yayan",
+      achievements: [
+        "Juara 2 Lomba Film Dokumenter Kategori Sinopsis, Tingkat Provinsi Banten",
+      ],
     },
   ],
 };

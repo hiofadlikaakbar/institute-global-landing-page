@@ -1,7 +1,7 @@
 <template>
   <div id="gallery" class="container mx-auto pb-32">
     <h1
-      class="text-3xl italic text-slate-700 mb-10 font-extrabold uppercase text-center"
+      class="text-3xl italic text-slate-900 mb-10 font-extrabold uppercase text-center"
     >
       Galleries
     </h1>

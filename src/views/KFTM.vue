@@ -21,20 +21,18 @@
             class="rounded-lg shadow-sm w-full shadow-black md:mb-0"
           />
         </div>
-        <div class="lg:order-1 border-l-4 border-orange-500">
+        <div class="lg:order-1 border-l-2 border-orange-500">
           <p class="text-lg leading-loose text-gray-500 font-medium mb-6 pl-3">
             Program Studi Kajian Film, Televisi dan Media (KFTM) mempelajari
             berbagai aspek film, televisi, dan media secara teoritis dan
             praktis. Mahasiswa akan mempelajari sejarah, estetika, produksi, dan
             distribusi film dan televisi, serta berbagai aspek media lainnya
-            seperti media sosial, media massa, dan media digital.
-          </p>
-          <p class="text-lg leading-loose text-gray-500 font-medium pl-3">
-            Lulusan KFTM diharapkan memiliki pengetahuan dan keterampilan yang
-            luas mengenai film, televisi, dan media, serta mampu bekerja secara
-            profesional di industri kreatif, media, dan komunikasi. Selain itu,
-            lulusan KFTM juga diharapkan memiliki kemampuan berpikir kritis dan
-            analitis dalam menganalisis dan mengkaji film, televisi, dan media.
+            seperti media sosial, media massa, dan media digital. Lulusan KFTM
+            diharapkan memiliki pengetahuan dan keterampilan yang luas mengenai
+            film, televisi, dan media, serta mampu bekerja secara profesional di
+            industri kreatif, media, dan komunikasi. Selain itu, lulusan KFTM
+            juga diharapkan memiliki kemampuan berpikir kritis dan analitis
+            dalam menganalisis dan mengkaji film, televisi, dan media.
           </p>
         </div>
       </div>
@@ -159,7 +157,7 @@
 
 <script setup>
 import { ref } from "vue";
-import KFTMimage from "../assets/KFTM-detail.jpg";
+import KFTMimage from "../assets/kftm2.jpg";
 import VMC from "../assets/3d-video.png";
 import PRDC from "../assets/public-relations.png";
 

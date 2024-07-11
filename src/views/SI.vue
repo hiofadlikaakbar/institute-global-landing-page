@@ -21,22 +21,19 @@
             class="rounded-lg shadow-sm w-full shadow-black md:mb-0"
           />
         </div>
-        <div class="lg:order-1 border-l-4 border-orange-500">
+        <div class="lg:order-1 border-l-2 border-orange-500">
           <p class="text-lg leading-loose text-gray-500 font-medium mb-6 pl-3">
             Program studi sistem informasi adalah program pendidikan tinggi yang
             berkaitan dengan pengembangan, penggunaan, dan manajemen sistem
             informasi dalam suatu organisasi. Program ini menggabungkan
             aspek-aspek teknologi informasi dan bisnis, sehingga lulusan dari
             program studi ini memiliki kemampuan untuk memahami dan menerapkan
-            teknologi informasi dalam konteks bisnis.
-          </p>
-          <p class="text-lg leading-loose text-gray-500 font-medium pl-3">
-            Setelah lulus, lulusan program studi sistem informasi dapat bekerja
-            di berbagai industri, seperti teknologi informasi, konsultasi
-            bisnis, perbankan, asuransi, perusahaan manufaktur, dan organisasi
-            pemerintah. Mereka dapat bekerja dalam posisi seperti analis sistem,
-            pengembang aplikasi, manajer proyek, analis bisnis, dan lain
-            sebagainya.
+            teknologi informasi dalam konteks bisnis. Setelah lulus, lulusan
+            program studi sistem informasi dapat bekerja di berbagai industri,
+            seperti teknologi informasi, konsultasi bisnis, perbankan, asuransi,
+            perusahaan manufaktur, dan organisasi pemerintah. Mereka dapat
+            bekerja dalam posisi seperti analis sistem, pengembang aplikasi,
+            manajer proyek, analis bisnis, dan lain sebagainya.
           </p>
         </div>
       </div>
@@ -161,7 +158,7 @@
 
 <script setup>
 import { ref } from "vue";
-import SIimage from "../assets/SI-detail.jpg";
+import SIimage from "../assets/prodiSI2.jpg";
 import AIS from "../assets/accounting.png";
 import MIS from "../assets/information-management.png";
 import LPIS from "../assets/checklist.png";

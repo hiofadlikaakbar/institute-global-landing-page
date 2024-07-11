@@ -21,19 +21,17 @@
             class="rounded-lg shadow-sm w-full shadow-black md:mb-0"
           />
         </div>
-        <div class="lg:order-1 border-l-4 border-orange-500">
-          <p class="text-lg leading-loose text-gray-500 font-medium mb-6 pl-3">
+        <div class="lg:order-1 border-l-2 border-orange-500">
+          <p class="text-lg leading-loose text-gray-500 font-medium pl-3">
             Program Studi Teknik Informatika di Global Institute mempelajari
             pengembangan dan penggunaan teknologi informasi serta komputer.
             Mahasiswa belajar dasar-dasar teknologi informasi, pemrograman,
             database, jaringan komputer, keamanan informasi, pengembangan
-            aplikasi, dan desain grafis.
-          </p>
-          <p class="text-lg leading-loose text-gray-500 font-medium pl-3">
-            Tujuan utama Program Studi Teknik Informatika adalah mempersiapkan
-            lulusan menjadi profesional di bidang teknologi informasi, seperti
-            pengembang perangkat lunak, administrator jaringan, arsitek solusi
-            teknologi, desainer UI/UX, atau konsultan TI.
+            aplikasi, dan desain grafis. Tujuan utama Program Studi Teknik
+            Informatika adalah mempersiapkan lulusan menjadi profesional di
+            bidang teknologi informasi, seperti pengembang perangkat lunak,
+            administrator jaringan, arsitek solusi teknologi, desainer UI/UX,
+            atau konsultan TI.
           </p>
         </div>
       </div>
@@ -158,7 +156,7 @@
 
 <script setup>
 import { ref } from "vue";
-import TIimage from "../assets/TI-detail.jpg";
+import TIimage from "../assets/prodiTI2.jpg";
 import SE from "../assets/TI.png";
 import IOT from "../assets/iot.png";
 import CDM from "../assets/cdm.png";

@@ -3,7 +3,7 @@
   <div class="hero-img flex justify-center items-center relative px-3">
     <div class="z-30 text-center">
       <h1 class="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl mb-3 text-white">
-        Selamat Datang di Fakultas FTIK
+        Selamat Datang di Fakultas Teknik Ilmu Komputer
       </h1>
       <p
         class="text-2xl md:text-3xl font-semibold lg:text-4xl 2xl:text-5xl mb-5 text-white"

@@ -26,7 +26,7 @@
         >
           {{ item.title }}
         </h1>
-        <p class="text-gray-600 mb-5 md:text-lg md:leading-[2.3]">
+        <p class="text-gray-600 mb-5 md:text-lg md:leading-loose">
           {{ item.desc }}
         </p>
         <router-link
